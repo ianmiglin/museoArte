@@ -1,0 +1,56 @@
+@font-face {
+  font-family: tech;
+  src: url(./assets/fonts/tech.otf);
+}
+
+* {
+  font-family: tech;
+}
+
+body {
+  margin: 0;
+}
+
+header img {
+  width: 100%;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header {
+  background: linear-gradient(to right, blue, tomato);
+}
+
+header a img {
+  width: 100px;
+}
+
+nav,
+section {
+  padding: 10px;
+  background: linear-gradient(to right, blue, tomato);
+}
+
+p {
+  width: 300px;
+}
+
+footer {
+  padding: 10px;
+  background: #000;
+  color: white;
+}
+
+footer img {
+  width: 500px;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer div p {
+  margin-left: 15%;
+}
