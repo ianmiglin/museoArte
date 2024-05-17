@@ -17,20 +17,40 @@ header img {
 
 header nav ul li {
   list-style: none;
+  float: left;
+  margin: 20px;
+}
+
+header nav ul {
+  height: 100%;
+}
+
+header nav {
+  height: 100px;
+  background: lightblue;
 }
 
 header {
-  background: linear-gradient(to right, blue, tomato);
+  background: linear-gradient(to left, blue, tomato);
 }
 
-header a img {
-  width: 100px;
+header nav a img {
+  margin: 10px;
+  width: 50px;
+  border-radius: 50%;
 }
 
-nav,
+header nav a {
+  float: left;
+}
+
+h1 {
+  clear: both;
+}
+
 section {
   padding: 10px;
-  background: linear-gradient(to right, blue, tomato);
+  background: linear-gradient(to left, blue, tomato);
 }
 
 p {
@@ -53,4 +73,8 @@ span {
 
 footer div p {
   margin-left: 15%;
+}
+
+ol {
+  list-style-type: none;
 }
