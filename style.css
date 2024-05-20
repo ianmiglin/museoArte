@@ -6,6 +6,9 @@
 * {
   font-family: tech;
 }
+header h1 {
+  text-align: center;
+}
 
 body {
   margin: 0;
@@ -18,16 +21,18 @@ header img {
 header nav ul li {
   list-style: none;
   float: left;
-  margin: 20px;
+  margin: 30px;
+  text-align: center;
+
 }
 
 header nav ul {
   height: 100%;
+  margin: 0;
 }
 
 header nav {
   height: 100px;
-  background: lightblue;
 }
 
 header {
@@ -38,6 +43,7 @@ header nav a img {
   margin: 10px;
   width: 50px;
   border-radius: 50%;
+
 }
 
 header nav a {
